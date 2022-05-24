@@ -17,21 +17,23 @@ if ($_POST) {
     $headers .= "X-Priority: 3\r\n";
     $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
     //send email
-  
+    $send_email = mail($to, $subject, $body, $headers);
     // If there are no errors, send the email and return response to ajax file to display success message
 
-        if(mail($to, $subject, $body, $headers)) {
+        /**if(mail($to, $subject, $body, $headers)) {
             //return success message and status json
-            return "success";
+            return $response = json_encode(array('status' => true, 'message' => 'Your message has been sent successfully.'));
+           // return "success";
            
 
         } else {
             //return error  message in french and status json
-           //return $response = json_encode(array('status' => false, 'message' => 'Désolé, il y a eu un problème lors de l\'envoi de votre message. Veuillez réessayer plus tard.'));
-            return "error";
+           return $response = json_encode(array('status' => false, 'message' => 'Désolé, il y a eu un problème lors de l\'envoi de votre message. Veuillez réessayer plus tard.'));
+            //return "error";
             
             
-        }
+        } */
+    echo ($send_email) ? 'success' : 'error';
     
 }
 

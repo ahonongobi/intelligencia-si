@@ -14,10 +14,13 @@ $(function () {
                 type: "POST",
                 url: url,
                 data: $(this).serialize(),
-                //dataType: "json",
-                success: function (data)
-                {
-                    if (data== "success") {
+               
+                success: function (result)
+                {  
+
+                    // data = JSON object that contact.php returns
+                    
+                    if (result == 'success') {
                     // data = JSON object that contact.php returns
                     $( "#msgSubmit" ).removeClass( "hidden" );
                     //interHTML(data.message) ti msgSubmit id;
