@@ -512,24 +512,25 @@ pour votre projet digital <span></span></a>
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group form-input-box">
-											<input type="text" class="form-control" id="name" name="name" placeholder="Nom & Prénoms*" required="required" data-error="Name is required.">
+											<input type="text" class="form-control" id="name" name="name" placeholder="Nom & Prénoms*" required="required" data-error="Le nom est réquis.">
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group form-input-box">
-											<input type="email" class="form-control" id="email" name="email" placeholder="E-mail :*" required="required" data-error="Valid email is required.">
+											<input type="email" class="form-control" id="email" name="email" placeholder="E-mail :*" required="required" data-error="Une addresse e-mail valide est réquise.">
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
 									<div class="col-md-12">
 										<div class="form-group form-input-box">
-											<input type="text" class="form-control" name="subject" placeholder="Objet :" required="required">
+											<input type="text" class="form-control" id="subject" name="subject" placeholder="Objet :" data-error="Objet réquis." required="required">
+											<div class="help-block with-errors"></div>
 										</div>
 									</div>
 									<div class="col-12">
 										<div class="form-group form-input-box">
-											<textarea class="form-control" id="message" name="message" rows="9" placeholder="Message...*" required="required" data-error="Please, leave us a message."></textarea>
+											<textarea class="form-control" id="message" name="message" rows="9" placeholder="Message...*" required="required" data-error="Veuillez svp, nous laisser un message"></textarea>
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
@@ -539,7 +540,8 @@ pour votre projet digital <span></span></a>
 									<label id="loader"></label>
      							    <label id="info"></label>
 									<div class="messages">
-										<div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Votre message a été envoyé avec succès. Un de nos agents vous contactera dans les plus brefs délai. Merci!. </div>
+										<div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button></div>
+										<div class="alert alert alert-danger alert-dismissable alert-dismissable hidden" id="msgSubmit2"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button></div>
 									</div>
 								</div>
 							</div>

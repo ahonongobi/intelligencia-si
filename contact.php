@@ -1,6 +1,6 @@
 <?php
 //send email according to the form data
-if (isset($_POST['submit'])) {
+if ($_POST) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
@@ -8,40 +8,31 @@ if (isset($_POST['submit'])) {
     $subject = $_POST['subject'];
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
     $from = $_POST['email'];
-    // Check if name has been entered
-    if (!$_POST['name']) {
-        $errName = 'Please enter your name';
-    }
-    // Check if email has been entered and is valid
-    if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-        $errEmail = 'Please enter a valid email address';
-    }
-    //Check if message has been entered
-    if (!$_POST['message']) {
-        $errMessage = 'Please enter your message';
-    }
+    //mail headers are mandatory for sending email
+    $headers = "From: $from\r\n";
+    $headers .= "Reply-To: $from\r\n";
+    $headers .= "Return-Path: $from\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
+    $headers .= "X-Priority: 3\r\n";
+    $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
+    //send email
+  
     // If there are no errors, send the email and return response to ajax file to display success message
-    if (!$errName && !$errEmail && !$errMessage) {
-        if (mail($to, $subject, $body, $from)) {
+
+        if(mail($to, $subject, $body, $headers)) {
             //return success message and status json
-            $response = array(
-                'status' => 'success',
-                // french translation that someone will read soon
-                'message' => 'Votre message a été envoyé avec succès. Un de nos agents vous contactera dans les plus brefs délai. Merci!'
-                
-               
-            );
+            return "success";
+           
 
         } else {
             //return error  message in french and status json
-            $response = array(
-                'status' => 'error',
-                'message' => 'Une erreur est survenue lors de l\'envoi de votre message. Veuillez réessayer plus tard.'
-                
-            );
+           //return $response = json_encode(array('status' => false, 'message' => 'Désolé, il y a eu un problème lors de l\'envoi de votre message. Veuillez réessayer plus tard.'));
+            return "error";
+            
             
         }
-    }
+    
 }
 
 

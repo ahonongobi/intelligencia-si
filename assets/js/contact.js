@@ -14,12 +14,23 @@ $(function () {
                 type: "POST",
                 url: url,
                 data: $(this).serialize(),
+                //dataType: "json",
                 success: function (data)
                 {
-
+                    if (data== "success") {
                     // data = JSON object that contact.php returns
                     $( "#msgSubmit" ).removeClass( "hidden" );
-                    $('#ajax-contact')[0].reset();
+                    //interHTML(data.message) ti msgSubmit id;
+                    // You can also use the following code:
+                     $("#msgSubmit").html("Votre message a été envoyé avec succès. Un de nos agents vous contactera dans les plus brefs délai. Merci!. ");
+                     $('#ajax-contact')[0].reset();
+                     console.log("success");
+                    } else {
+                        $("#msgSubmit2" ).removeClass( "hidden" );
+                        $("#msgSubmit2").html("Votre message n'a pas été envoyé. Veuillez réessayer plus tard. Merci!");
+                        console.log("error");
+                    }
+
                     
                 }
             });
