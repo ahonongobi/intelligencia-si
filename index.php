@@ -507,7 +507,7 @@ pour votre projet digital <span></span></a>
 			<div class="col-lg-12 col-md-12">
 				<div class="contact-form-box contact-form contact-form-3">
 					<div class="form-container-box">
-						<form class="contact-form form" id="ajax-contact" method="post" action="../../../../external.html?link=http://ebaytemplate.com/thesoft/website/Intelligencia-si/assets/php/contact.php">
+						<form class="contact-form form" id="ajax-contact" method="post" action="">
 							<div class="controls">
 								<div class="row">
 									<div class="col-md-6">
@@ -534,10 +534,12 @@ pour votre projet digital <span></span></a>
 										</div>
 									</div>
 									<div class="col-md-12">
-										<button type="submit" class="default-btn" data-text="Send Message">Envoyer le message</button>
+										<button type="submit" name="submit" class="default-btn" data-text="Send Message">Envoyer le message</button>
 									</div>
+									<label id="loader"></label>
+     							    <label id="info"></label>
 									<div class="messages">
-										<div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Thank You! your message has been sent. </div>
+										<div class="alert alert alert-success alert-dismissable alert-dismissable hidden" id="msgSubmit"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> Votre message a été envoyé avec succès. Un de nos agents vous contactera dans les plus brefs délai. Merci!. </div>
 									</div>
 								</div>
 							</div>
@@ -643,7 +645,9 @@ pour votre projet digital <span></span></a>
 	<script src="assets/js/wow.min.js"></script>
 	<!-- Main JS -->
 	<script src="assets/js/main.js"></script>
-	
+	<script>
+
+	</script>
 </body>
 
 
