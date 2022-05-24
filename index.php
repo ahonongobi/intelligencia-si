@@ -35,6 +35,11 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<style>
+		input,textarea{
+			text-transform: none !important;
+		}
+	</style>
 </head>
 
 <body>
@@ -535,7 +540,7 @@ pour votre projet digital <span></span></a>
 										</div>
 									</div>
 									<div class="col-md-12">
-										<button type="submit" name="submit" class="default-btn" data-text="Send Message">Envoyer le message</button>
+										<button type="submit" name="submit" id="btnsubmit" class="default-btn" data-text="Send Message">Envoyer le message</button>
 									</div>
 									<label id="loader"></label>
      							    <label id="info"></label>
