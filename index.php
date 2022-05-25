@@ -66,8 +66,8 @@
 				<div class="Intelligencia-si-responsive-menu">
 					<div class="logo">
 						<a href="index.php">
-							<img src="assets/img/monlogo.png"  class="white-logo" alt="logo">
-							<img src="assets/img/monlogo.png"  class="black-logo" alt="logo">
+							<img src="assets/img/monlogomobile.png"  class="white-logo" alt="logo">
+							<img src="assets/img/monlogomobile.png"  class="black-logo" alt="logo">
 							<span style="color: #131340; font-weight:bold">Intelligencia SI</span>
 						</a>
 					</div>
