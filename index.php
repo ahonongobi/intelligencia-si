@@ -612,7 +612,7 @@ pour votre projet digital <span></span></a>
   "brandSetting":{
       "brandName":"Intelligencia SI",
       "brandSubTitle":"Service clientel",
-      "brandImg":"https://intelligencia-si.com/assets/img/logof.png",
+      "brandImg":"https://intelligencia-si.com/assets/img/logob.png",
       "welcomeText":"Bonjour !\n Comment puis-je vous aider ?",
       "messageText":"Bonjour Intelligencia SI !  ",
       "backgroundColor":"#131340",
