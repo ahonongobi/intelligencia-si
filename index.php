@@ -93,7 +93,7 @@
 								<a style="text-transform: none !important" href="#about" class="nav-link">À PROPOS</a>
 							</li>
 							<li class="nav-item">
-								<a href="#equipe" class="nav-link">L'ÉPQUE</a>
+								<a href="#equipe" class="nav-link">L'ÉPIQUE</a>
 							</li>
 							<li class="nav-item">
 								<a href="#" class="nav-link">SERVICES</a>
