@@ -35,6 +35,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="517c446a-bfd8-4e5e-b06b-85a965ff43c8";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 	<style>
 		input,textarea{
 			text-transform: none !important;
@@ -592,7 +593,7 @@ pour votre projet digital <span></span></a>
 		<i class="fas fa-chevron-up"></i>
 	</div>
 	<!-- End Go Top Section -->
-		<script>
+		<!--<script>
     var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?10582';
     var s = document.createElement('script');
     s.type = 'text/javascript';
@@ -627,7 +628,7 @@ pour votre projet digital <span></span></a>
     };
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
-</script>
+</script> -->
 	<!-- jQuery Min JS -->
 	<script data-cfasync="false" src="assets/js/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
 	<!-- Bootstrap Min JS -->
