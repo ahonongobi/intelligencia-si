@@ -66,9 +66,9 @@
 			<div class="container">
 				<div class="Intelligencia-si-responsive-menu">
 					<div class="logo">
-						<a href="index.html">
-							<img src="assets/img/inteligencia tech.png" style="width: 80px; height: 60px;" class="white-logo" alt="logo">
-							<img src="assets/img/inteligencia tech.png" style="width: 80px; height: 60px;" class="black-logo" alt="logo">
+						<a href="index.php">
+							<img src="assets/img/monlogomobile.png"  class="white-logo" alt="logo">
+							<img src="assets/img/monlogomobile.png"  class="black-logo" alt="logo">
 							<span style="color: #131340; font-weight:bold">Intelligencia SI</span>
 						</a>
 					</div>
@@ -78,9 +78,9 @@
 		<div class="Intelligencia-si-nav index-navber">
 			<div class="container">
 				<nav class="navbar navbar-expand-md navbar-light">
-					<a class="navbar-brand d-flex" href="index.html">
-						<img src="assets/img/inteligencia tech.png" style="width: 100px; height: 100px;"  class="white-logo" alt="logo">
-						<img src="assets/img/inteligencia tech.png" style="width: 80px; height: 80px;"  class="black-logo" alt="logo">
+					<a class="navbar-brand d-flex" href="index.php">
+						<img src="assets/img/monlogo.png"   class="white-logo" alt="logo">
+						<img src="assets/img/monlogo.png"   class="black-logo" alt="logo">
 						
 						<span class="d-flex justify-content-center" style="color: #131340; font-weight:bold; margin-top:10%">Intelligencia SI</span>
 						
@@ -94,7 +94,7 @@
 								<a style="text-transform: none !important" href="#about" class="nav-link">À PROPOS</a>
 							</li>
 							<li class="nav-item">
-								<a href="#equipe" class="nav-link">L'ÉPQUE</a>
+								<a href="#equipe" class="nav-link">L'ÉPIQUE</a>
 							</li>
 							<li class="nav-item">
 								<a href="#" class="nav-link">SERVICES</a>
@@ -613,7 +613,7 @@ pour votre projet digital <span></span></a>
   "brandSetting":{
       "brandName":"Intelligencia SI",
       "brandSubTitle":"Service clientel",
-      "brandImg":"https://intelligencia-si.com/assets/img/logof.png",
+      "brandImg":"https://intelligencia-si.com/assets/img/logob.png",
       "welcomeText":"Bonjour !\n Comment puis-je vous aider ?",
       "messageText":"Bonjour Intelligencia SI !  ",
       "backgroundColor":"#131340",
