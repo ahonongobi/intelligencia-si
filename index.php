@@ -46,7 +46,7 @@
 <body>
 
 	<!-- Start Preloader Area -->
-	<div class="preloader">
+	<div class="preloaders">
 		<div class="d-table">
 			<div class="d-table-cell">
 			<div class="lds-spinner">
@@ -398,10 +398,10 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/team/pp.jpeg" alt="team" />
+							<img src="assets/img/Lewis.jpg"  style="height: 280px !important;" alt="team" />
 							<div class="team-social-icon">
-								<a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>
-								<a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
 								<a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
@@ -414,10 +414,10 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/team/pp.jpeg" alt="team" />
+							<img src="assets/img/team/pp.jpeg" style="height: 270px !important;" alt="team" />
 							<div class="team-social-icon">
-								<a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>
-								<a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
 								<a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
@@ -430,10 +430,10 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/team/pp.jpeg" alt="team" />
+							<img src="assets/img/istockphoto-476085198-612x612.jpg" style="height: 280px !important;" alt="team" />
 							<div class="team-social-icon">
-								<a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>
-								<a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
 								<a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
@@ -446,10 +446,10 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/team/pp.jpeg" alt="team" />
+							<img src="assets/img/istockphoto-476085198-612x612.jpg" style="height: 280px !important;" alt="team" />
 							<div class="team-social-icon">
-								<a href="#" class="social-color-1"><i class="fab fa-facebook-f"></i></a>
-								<a href="#" class="social-color-2"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
 								<a href="#" class="social-color-3"><i class="fab fa-linkedin"></i></a>
 							</div>
 						</div>
@@ -487,7 +487,7 @@ pour votre projet digital <span></span></a>
 							<div class="single-contact-info-box">
 								<div class="contact-info">
 									<b style="color: #fff;">TÉLÉPHONES:</b>
-									<p>+229 5150 7071</p>
+									<p>+229 53682626</p>
 									<p>+229 64745149</p>
 								</div>
 								<div class="contact-info-bg-icon">
