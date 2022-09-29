@@ -40,6 +40,16 @@
 		input,textarea{
 			text-transform: none !important;
 		}
+
+		/** set .mobile to style="height: 280px !important;" on web and mobile nothing */
+		@media only screen and (max-width: 600px) {
+			.mobile {
+				height: 100% !important;
+			}
+		}
+		.mobile {
+			height: 200% !important;
+		}
 	</style>
 </head>
 
@@ -398,7 +408,7 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/Lewis.jpg"  style="height: 280px !important;" alt="team" />
+							<img src="assets/img/Lewis.jpg" class="mobile" alt="team" />
 							<div class="team-social-icon">
 							<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
 								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
@@ -414,7 +424,7 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/team/pp.jpeg" style="height: 270px !important;" alt="team" />
+							<img src="assets/img/team/pp.jpeg"  alt="team" />
 							<div class="team-social-icon">
 								<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
 								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
@@ -430,7 +440,7 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/istockphoto-476085198-612x612.jpg" style="height: 280px !important;" alt="team" />
+							<img src="assets/img/istockphoto-476085198-612x612.jpg"  alt="team" />
 							<div class="team-social-icon">
 							<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
 								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
@@ -446,7 +456,7 @@ pour votre projet digital <span></span></a>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-team-box">
 						<div class="team-image">
-							<img src="assets/img/istockphoto-476085198-612x612.jpg" style="height: 280px !important;" alt="team" />
+							<img src="assets/img/istockphoto-476085198-612x612.jpg"  alt="team" />
 							<div class="team-social-icon">
 							<a href="#" class="social-color-1 d-none"><i class="fab fa-facebook-f"></i></a>
 								<a href="#" class="social-color-2 d-none"><i class="fab fa-twitter"></i></a>
